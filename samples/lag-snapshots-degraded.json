@@ -1,0 +1,120 @@
+{
+  "consumer_groups": [
+    {
+      "name": "payments-writer",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 1200
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 2600
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 4100
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 5900
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 8200
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 11000
+        }
+      ]
+    },
+    {
+      "name": "clickstream-loader",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 42000
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 36000
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 30000
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 24000
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 18000
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 12000
+        }
+      ]
+    },
+    {
+      "name": "audit-shipper",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 3400
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 3400
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 3400
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 3400
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 3400
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 3400
+        }
+      ]
+    },
+    {
+      "name": "metrics-rollup",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 900
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 700
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 500
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 300
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 150
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 40
+        }
+      ]
+    }
+  ]
+}
