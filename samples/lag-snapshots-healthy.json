@@ -1,0 +1,62 @@
+{
+  "consumer_groups": [
+    {
+      "name": "payments-writer",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 1200
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 900
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 650
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 400
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 180
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 20
+        }
+      ]
+    },
+    {
+      "name": "clickstream-loader",
+      "snapshots": [
+        {
+          "timestamp": "2026-11-09T18:00:00Z",
+          "lag": 8000
+        },
+        {
+          "timestamp": "2026-11-09T18:30:00Z",
+          "lag": 6500
+        },
+        {
+          "timestamp": "2026-11-09T19:00:00Z",
+          "lag": 5000
+        },
+        {
+          "timestamp": "2026-11-09T19:30:00Z",
+          "lag": 3500
+        },
+        {
+          "timestamp": "2026-11-09T20:00:00Z",
+          "lag": 2000
+        },
+        {
+          "timestamp": "2026-11-09T20:30:00Z",
+          "lag": 600
+        }
+      ]
+    }
+  ]
+}
